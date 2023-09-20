@@ -8,7 +8,7 @@ public class MainStd {
         UniversityStudent student4 = new UniversityStudent("Hasnain", 18, 12, "23CS35", "Computer Science","3rd");
         UniversityStudent student5 = new UniversityStudent("Jawad", 20, 12, "22Ch018", "Chemical Engineering","4rth");
         UniversityStudent student6 = new UniversityStudent("Aijaz", 20, 12, "22BM008", "Bio-Medical Engineering","8th");
-
+        UniversityStudent student7 = new UniversityStudent("Muzammil", 20, 12, "23CPT002", "Crop Protection","5th");
 
         // Add students to the studentList
         UniversityStudent.AddStudents(studentList, student1);
@@ -17,6 +17,8 @@ public class MainStd {
         UniversityStudent.AddStudents(studentList, student4);
         UniversityStudent.AddStudents(studentList, student5);
         UniversityStudent.AddStudents(studentList, student6);
+        UniversityStudent.AddStudents(studentList, student7);
+        
         // Search for a student by name in studentList
         // UniversityStudent.searchStudentName(studentList, "jawadd");
         // UniversityStudent.DeptNameforStudentList(studentList, "Chemical Engineering");
