@@ -18,13 +18,12 @@ public class MainStd {
         UniversityStudent.AddStudents(studentList, student5);
         UniversityStudent.AddStudents(studentList, student6);
         UniversityStudent.AddStudents(studentList, student7);
-        
+        UniversityStudent.DeptNameforStudentList(studentList, "software Engineering");
         // Search for a student by name in studentList
-        // UniversityStudent.searchStudentName(studentList, "jawadd");
-        // UniversityStudent.DeptNameforStudentList(studentList, "Chemical Engineering");
+        // UniversityStudent.searchStudentName(studentList,"jawadd");
         // UniversityStudent.AverageAgeStudents(studentList);
-        UniversityStudent.removeStudent(studentList, "Aijaz");
-        UniversityStudent.displayStudentList(studentList);
+        // UniversityStudent.removeStudent(studentList, "Aijaz");
+        // UniversityStudent.displayStudentList(studentList);
 
     }
 }
